@@ -6,10 +6,10 @@ window.addEventListener("load", function() {
             load: [
                 "scripts/sizzle.js",
                 "scripts/dom.js",
-                "scripts/game.js",
+                "scripts/game.js"
             ],
             complete: function() {
-                //all files loaded
+                jewel.game.showScreen("splash-screen");
             }
         }
     ]);
